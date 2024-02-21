@@ -12,7 +12,6 @@ This application has three slices of state:
 * currencyFilter: A string that represents the currency used to calculate the prices displayed to the user: ‘USD’, ‘CAD’ or ‘EUR’.
 An example of this application’s state might look like this:
 
-JavaScript
 
 ```
 state = {
