@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/791de1d0-ad68-491c-bb5d-761ee0ec162b/deploy-status)](https://app.netlify.com/sites/badacorp-codecademy-store/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
