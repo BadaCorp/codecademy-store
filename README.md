@@ -14,7 +14,21 @@ An example of this application’s state might look like this:
 
 JavaScript
 
-```state = { inventory: [{ name: 'Hat', img: 'img/hat.png', price: 15.99 }, { name: 'T-Shirt', img: 'img/t-shirt.png', price: 18.99 },{ name: 'Hoodie', img: 'img/hoodie.png', price: 49.99 },],cart: {'Hat': { price: 15.99, quantity: 0 },'T-Shirt': { price: 15.99, quantity: 2 },'Hoodie': { price: 18.99, quantity: 1 },},currencyFilter: 'CAD'} ```
+```
+state = {
+  inventory: [
+    { name: 'Hat', img: 'img/hat.png', price: 15.99 },
+    { name: 'T-Shirt', img: 'img/t-shirt.png', price: 18.99 },
+    { name: 'Hoodie', img: 'img/hoodie.png', price: 49.99 },
+  ],
+  cart: {
+    'Hat': { price: 15.99, quantity: 0 },
+    'T-Shirt': { price: 15.99, quantity: 2 },
+    'Hoodie': { price: 18.99, quantity: 1 },
+  },
+  currencyFilter: 'CAD'
+}
+```
 
 ## Available Scripts
 
