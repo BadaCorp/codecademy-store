@@ -7,9 +7,9 @@ This project involves building a program that mimics Codecademy’s own online s
 ## State
 This application has three slices of state:
 
-inventory: An array of objects representing the items that are available to purchase.
-cart: An object that maps the name of each item added to the cart to an object with the price and desired quantity for that item.
-currencyFilter: A string that represents the currency used to calculate the prices displayed to the user: ‘USD’, ‘CAD’ or ‘EUR’.
+* inventory: An array of objects representing the items that are available to purchase.
+* cart: An object that maps the name of each item added to the cart to an object with the price and desired quantity for that item.
+* currencyFilter: A string that represents the currency used to calculate the prices displayed to the user: ‘USD’, ‘CAD’ or ‘EUR’.
 An example of this application’s state might look like this:
 
 JavaScript
